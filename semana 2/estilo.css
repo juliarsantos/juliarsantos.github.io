@@ -1,0 +1,197 @@
+html, body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+header{
+    background-color: black;
+    color: gray;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left:13px;    
+}
+
+#menu{ 
+    float: right;
+    margin-right: 30px;
+    list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+li{
+    float: left;
+    padding: 20px 20px 22px 20px;
+}
+
+
+li:hover{ 
+    background-color:#65818C
+}
+
+li a{
+    text-decoration: black;
+    color:white
+}
+
+
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+#titulo{
+    /*font-size-adjust: unset;*/
+    color: #000000;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #000000;
+    padding-top: 12%;
+    margin: 0;
+    font-size: 450%;
+    letter-spacing: 5px;
+     /*-webkit-text-stroke-width: 2px; largura da borda */
+    /*-webkit-text-stroke-color: #241D26;  cor da borda */
+}
+
+#subtitulo{
+    color:white;
+    font-size:150%;
+    font-weight: 100%;
+    text-shadow: 2px 2px 4px #000000;
+    line-height: 1.5;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 3px black solid;  
+    
+      
+}
+
+
+#acao{
+    color:white ;
+    text-shadow: 2px 2px 4px #000000;
+    border: 2px black solid;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    font-size: 30px;
+    text-decoration:none;
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+    cursor: pointer;
+    box-shadow: 3px 5px 1px rgba(0, 0, 0, 0.4);
+}
+
+#acao:hover{ 
+    background-color: black;
+    /*font-size:30 ;*/
+}
+
+.icone{ 
+    width: 60px;
+    padding: 20px;
+
+}
+
+.icone:hover{
+    background-color: rgba(0, 0, 255, 0.281);
+    border-radius: 23px;
+}
+
+/*#pp{
+    font-size: 40px;
+    
+}
+
+#p1{
+    font-size :25px;
+}
+
+#p2{
+    font-size: 25px;
+}
+
+#p3{
+    font-size: 25px
+}*/
+    
+
+
+
+.destaque{
+    background-color: #f2c57234;
+}
+/*Alterção do padding*/
+
+section{ 
+        padding: 20px;
+        float: left;
+        text-align: center;        
+}
+
+.imgeco{
+    width: 80%; 
+}
+
+#acao:hover{ 
+    background-color: black;
+    font-weight: 545;
+}
+
+img{
+    transition: 500ms
+}
+
+img:hover{
+    transform: scale(1.022);
+}
+
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position:relative;/*posição do elemento_(div), vai variar,com base no elemento, que vem anteriormente(div ao lado esquerdo*/
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.quatro{
+    width: 15%;
+}
+
+#sobre{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
