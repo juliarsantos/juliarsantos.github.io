@@ -1,0 +1,209 @@
+html, body{
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+header{
+    background-color:#314022;
+    color: #808080;
+    height: 12%;
+    width: 100%;
+    z-index: 50;
+    opacity: 4.0;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+#logo img{
+    width: 15%;
+    position: absolute;
+    height:28%;
+    margin-top: 4px; 
+    margin-left: 2%;
+    z-index: 999;
+    background-color: #314022;
+    opacity: 0.9;
+    border-radius: 0 0 10% 10%;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+#menu{ 
+    float: right;
+    margin-right: 23%;
+    list-style: none;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+li{
+    float: left;
+    padding: 23px 50px 28px 50px;
+}
+li:hover{ 
+    background-color:#ebd61d;
+    border-radius: 0 0 27% 27%;
+}
+li a{
+    text-decoration: black;
+    color:white;
+    font-size: 18px;
+}
+#imagem_fundo{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    padding: 1%;
+    text-align: center;
+}
+#titulo{
+    color: #314022;
+    text-transform: uppercase;
+    text-shadow: 12.5% 12.5% 25% #000000;
+    padding-top: 8%;
+    margin: 0;
+    font-size: 450%;
+}
+#subtitulo{
+    color:white;
+    font-size:150%;
+    font-weight: 100%;
+    text-shadow: 12.5% 12.5% 25% #000000;
+    line-height: 1.5;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    border-top: 3px black solid;  
+}
+#acao{
+    color:white ;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration:none;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 100px;
+    
+    background-color:#314022;
+    border: none;
+    height: 50px;
+    line-height: 30px;
+    padding: 20 40 20 40px;
+    text-transform: unset;
+    cursor: pointer;
+}
+#acao:hover{ 
+    background-color:#ebd61d;
+    /*font-size:30 ;*/
+}
+.icone{ 
+    width: 48%;
+    padding: 20px;
+}
+.icone:hover{
+    background-color: #314022;
+    border-radius: 23px;
+}
+/*#pp{
+    font-size: 40px;
+}
+#p1{
+    font-size :25px;
+}
+#p2{
+    font-size: 25px;
+}
+#p3{
+    font-size: 25px
+}*/  
+.destaque{
+    background-color:#6F92BF;
+    padding: 138 5%;
+}
+/*Alterção do padding*/
+.sele{
+    background-color: white;
+    padding:35 5%;
+}
+.eco{
+    background-color:#6F92BF;
+    padding: 91 5%;
+}
+section{ 
+    padding: 20px;
+    float: left;
+    text-align: center;        
+}
+.imgeco{
+    width: 100%; 
+}
+#acao:hover{ 
+    background-color: black;
+    font-weight: 545;
+}
+img{
+    transition: 500ms;
+}
+img:hover{
+    transform: scale(1.022);
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position:relative;/*posição do elemento_(div), vai variar,com base no elemento, que vem anteriormente(div ao lado 
+    */
+    width:40%;
+}
+.dois{
+    width: 40%;
+}
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+.quatro{
+    width: 15%;
+}
+
+#sobre{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.topo{
+    padding: 3%;
+}
+.mim{
+    padding: 160 2%;
+}
+#redes{
+    width: 55px;
+    padding:20px;
+    
+}
+@media all and ( max-width: 768px)
+    {#menu{
+        visibility:hidden
+    } 
+    .coluna, .dois, .tres, .quatro {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logo{
+        text-align: center;
+    }
+    #logo img{
+        margin-left: 0;
+        position: relative;
+    }
+    #titulo{padding: 10%;
+    }
+    #subtitulo{
+        margin-left: 3%;
+        margin-right:3% ;
+        font-size: 130%;
+    }
+}
